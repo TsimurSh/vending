@@ -25,4 +25,5 @@ jobs:
         run:  chmod +x ./gradlew
 
       - name: 🕋  TEST
-        run: ./gradlew test --args='--spring.profiles.active=postgres'
+#        run: ./gradlew test --args='--spring.profiles.active=postgres'
+        run: ./gradlew test
