@@ -18,7 +18,7 @@ spring:
 
 ---
 spring:
-  config.activate.on-profil e: postgres
+  config.activate.on-profile: postgres
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
 
